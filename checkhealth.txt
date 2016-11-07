@@ -1,0 +1,57 @@
+
+health#deoplete#check
+========================================================================
+## deoplete.nvim
+  - SUCCESS: has("nvim") was successful
+  - SUCCESS: has("python3") was successful
+  - INFO: If you're still having problems, try the following commands:
+    $ export NVIM_PYTHON_LOG_FILE=/tmp/log
+    $ export NVIM_PYTHON_LOG_LEVEL=DEBUG
+    $ nvim
+    $ cat /tmp/log_{PID}
+    and then create an issue on github
+
+health#nvim#check
+========================================================================
+## Configuration
+  - SUCCESS: no issues found
+
+## Performance
+  - SUCCESS: Build type: RelWithDebInfo
+
+## Remote Plugins
+  - SUCCESS: Up to date
+
+## terminfo
+  - INFO: key_backspace terminfo entry: key_backspace=\177,
+
+health#provider#check
+========================================================================
+## Clipboard
+  - SUCCESS: Clipboard tool found: pbcopy
+
+## Python 2 provider
+  - INFO: `g:python_host_prog` is not set.  Searching for python2 in the environment.
+  - SUCCESS: pyenv found: "/Users/david/.local/pyenv/libexec/pyenv"
+  - WARNING: pyenv is not set up optimally.
+    - SUGGESTIONS:
+      - Suggestion: Create a virtualenv specifically for Neovim using pyenv and use "g:python_host_prog".  This will avoid the need to install Neovim's Python client in each version/virtualenv.
+  - INFO: Executable: /usr/local/bin/python2
+  - INFO: Python2 version: 2.7.12
+  - INFO: python2-neovim Version: 0.1.8
+  - SUCCESS: Latest Neovim Python client is installed: (up to date)
+
+## Python 3 provider
+  - INFO: `g:python3_host_prog` is not set.  Searching for python3 in the environment.
+  - SUCCESS: pyenv found: "/Users/david/.local/pyenv/libexec/pyenv"
+  - INFO: Executable: /Users/david/.local/pyenv/versions/3.5.2/bin/python3
+  - INFO: Python3 version: 3.5.2
+  - INFO: python3-neovim Version: 0.1.10
+  - SUCCESS: Latest Neovim Python client is installed: (up to date)
+
+## Ruby provider
+  - SUCCESS: Found up-to-date neovim RubyGem
+  - INFO: Ruby Version: ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin14]
+  - INFO: Host Executable: /Users/david/.gem/ruby/2.3.1/bin/neovim-ruby-host
+  - INFO: Host Version: 0.3.1
+

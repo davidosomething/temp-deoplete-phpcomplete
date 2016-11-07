@@ -12,3 +12,5 @@ call plug#begin()
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'shawncplus/phpcomplete.vim', { 'for': 'php' }
 call plug#end()
+
+set number
